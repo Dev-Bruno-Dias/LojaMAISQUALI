@@ -1,0 +1,338 @@
+#fundo {
+    width: 100%;
+    height: 100vh;
+    background: white;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+* {
+    margin: 0;
+}
+
+#pesquisa {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+
+}
+#final{
+   height: auto;
+   width: 1500px;
+   display: flex;
+   gap: 10px;
+}
+#org {
+    height: 100%;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#org2 {
+    height: 100%;
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+}
+
+#org3 {
+    height: 100%;
+    width: 34%;
+    align-items: center;
+    display: flex;
+    min-width: 350px;
+    justify-content: center;
+    gap: 60px;
+    margin-right: 100px;
+    margin-left: 60px;
+}
+
+#pes {
+    height: 100%;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#barra {
+
+    height: 30%;
+    width: 700px;
+    border-radius: 10px;
+    background-color: #E0E0E0;
+    display: grid;
+    place-items: left;
+    align-items: center;
+
+}
+
+#barra:hover {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+#log {
+    width: auto;
+    height: 100%;
+    align-items: center;
+    display: flex;
+}
+
+#curtir {
+    width: auto;
+    height: 100%;
+    align-items: center;
+    display: flex;
+}
+
+#com {
+    width: auto;
+    height: 100%;
+    align-items: center;
+    display: flex;
+}
+
+/* Inicio da parte de baixo da barra de pesquisa */
+#ops {
+    width: 100%;
+    height: 5%;
+    display: flex;
+    gap: 55px;
+}
+
+.bar {
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    padding: 5px;
+
+}
+
+.bar1 {
+    width: auto;
+    height: auto;
+    padding: 5px;
+    margin-left: 335px;
+    border-radius: 10px;
+}
+
+.bar:hover {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.bar1:hover {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Slides */
+#carro1 {
+    height: auto;
+    width: auto;
+}
+
+/* produtos */
+#produtos {
+    width: 100%;
+    height: auto;
+}
+
+#Prom {
+    width: 100%;
+    height: auto;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+#prod {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+/* Categorias */
+#cate {
+    width: 100%;
+    height: auto;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+/* marcas */
+#marcas {
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 8px;
+    margin-left: 8px;
+    justify-content: center;
+}
+
+.mar {
+    width: 150px;
+    height: 170px;
+    border-radius: 10%;
+    overflow: hidden;
+}
+
+#ProemAlta {
+    width: 100%;
+    height: auto;
+    
+}
+
+#nome {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    margin-left: 8px;
+}
+
+#produtosalta {
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+/* ------------------------- */
+#servi {
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+    justify-content: center;
+    margin-bottom: 30px;
+
+}
+
+#ser {
+    width: 526px;
+    height: 200px;
+    overflow: hidden;
+}
+
+/* ------------------------- */
+#ult {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+#nm {
+    width: 100%;
+    height: auto;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    
+}
+
+#produ {
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+
+
+/* -----------Login-------------- */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background: rgb(26,177,153);
+    background: -moz-linear-gradient(90deg, rgba(26,177,153,1) 29%, rgba(180,172,172,1) 53%);
+    background: -webkit-linear-gradient(90deg, rgba(26,177,153,1) 29%, rgba(180,172,172,1) 53%);
+    background: linear-gradient(90deg, rgba(26,177,153,1) 29%, rgba(180,172,172,1) 53%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1ab199",endColorstr="#b4acac",GradientType=1);
+
+
+}
+.login-container {
+    width: 500px;
+    height: 500px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+#botao {
+    width: 90%;
+    padding: 10px;
+    background: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+#botao:hover {
+    background: #0056b3;
+}
+#Conta{
+    background: none;
+    border: none;
+}
+#Senha{
+    background: none;
+    border: none;
+}
+/* -----------------Rodapé------------------------- */
+.Fundo2{
+  width: 100%;
+  height: auto;
+  background-color:#DCDCDC	;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;  
+}
+.info{
+    width: 300px;
+    height: 250px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-top: 35px;
+}
+.info2{
+    width: 300px;
+    height: 250px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-top: 8px;
+}
+.info3{
+    width: 300px;
+    height: 250px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-top: 8px;
+}
+
+

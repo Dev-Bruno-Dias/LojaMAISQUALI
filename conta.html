@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criar Conta</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .container {
+            max-width: 500px;
+            margin-top: 50px;
+            background-color: white;
+            border-radius: 10px;
+            padding-bottom: 5px;
+        }
+        .logo {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        body{
+            background: rgb(26,177,153);
+    background: -moz-linear-gradient(90deg, rgba(26,177,153,1) 29%, rgba(180,172,172,1) 53%);
+    background: -webkit-linear-gradient(90deg, rgba(26,177,153,1) 29%, rgba(180,172,172,1) 53%);
+    background: linear-gradient(90deg, rgba(26,177,153,1) 29%, rgba(180,172,172,1) 53%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1ab199",endColorstr="#b4acac",GradientType=1);
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="trab.png" alt="Logo" width="150">
+        </div>
+        <h2 class="text-center">Criar Conta</h2>
+        <form action="#" method="POST">
+            <div class="form-group">
+                <label for="name">Nome Completo</label>
+                <input type="text" class="form-control" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">E-mail</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Senha</label>
+                <input type="password" class="form-control" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <label for="confirm_password">Confirmar Senha</label>
+                <input type="password" class="form-control" id="confirm_password" name="confirm_password" required>
+            </div>
+            <div class="form-group">
+                <label for="dob">Data de Nascimento</label>
+                <input type="date" class="form-control" id="dob" name="dob" required>
+            </div>
+            <div class="form-group">
+                <label>Gênero</label>
+                <select class="form-control" name="gender" required>
+                    <option value="masculino">Masculino</option>
+                    <option value="feminino">Feminino</option>
+                    <option value="outro">Outro</option>
+                </select>
+            </div>
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="terms" required>
+                <label class="form-check-label" for="terms">Aceito os Termos de Uso</label>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block mt-3">Criar Conta</button>
+        </form>
+        <p class="text-center mt-3">Já tem uma conta? <a href="Login.html">Faça login</a></p>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
